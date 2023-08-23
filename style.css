@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+}
+
+h2,
+p,
+span {
+    font-family: "Nunito sans";
+
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card img {
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+
+}
